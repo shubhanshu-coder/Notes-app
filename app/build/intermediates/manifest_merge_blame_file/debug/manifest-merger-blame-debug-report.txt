@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shubh.notesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11-->[com.firebaseui:firebase-ui-firestore:4.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e6404bfb800b233cfc4701d405b39a3d\transformed\jetified-firebase-ui-firestore-4.1.0\AndroidManifest.xml:11:5-67
+11-->[com.firebaseui:firebase-ui-firestore:4.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e6404bfb800b233cfc4701d405b39a3d\transformed\jetified-firebase-ui-firestore-4.1.0\AndroidManifest.xml:11:22-64
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:21.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bbf53a4cfe24a7cc9acf1e5c759a302a\transformed\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:21.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bbf53a4cfe24a7cc9acf1e5c759a302a\transformed\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:13:22-76
+14
+15    <application
+15-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-43:19
+16        android:allowBackup="true"
+16-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\shubh\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.NotesApp" >
+24-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:11:9-46
+25        <activity
+25-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:12:9-15:75
+26            android:name="com.shubh.notesapp.notedetails"
+26-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:13:13-40
+27            android:exported="false"
+27-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:14:13-37
+28            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+28-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:15:13-72
+29        <activity
+29-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:16:9-20:15
+30            android:name="com.shubh.notesapp.editnoteactivity"
+30-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:17:13-45
+31            android:exported="false"
+31-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:18:13-37
+32            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+32-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:19:13-72
+33        <activity
+33-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:21:9-24:75
+34            android:name="com.shubh.notesapp.createnote"
+34-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:22:13-39
+35            android:exported="false"
+35-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:23:13-37
+36            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+36-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:24:13-72
+37        <activity
+37-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:25:9-27:40
+38            android:name="com.shubh.notesapp.notesactivity"
+38-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:26:13-42
+39            android:exported="false" />
+39-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:27:13-37
+40        <activity
+40-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:28:9-30:40
+41            android:name="com.shubh.notesapp.forgotpassword"
+41-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:29:13-43
+42            android:exported="false" />
+42-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:30:13-37
+43        <activity
+43-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:31:9-33:40
+44            android:name="com.shubh.notesapp.signup"
+44-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:32:13-35
+45            android:exported="false" />
+45-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:33:13-37
+46        <activity
+46-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:34:9-42:20
+47            android:name="com.shubh.notesapp.MainActivity"
+47-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:35:13-41
+48            android:exported="true" >
+48-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:36:13-36
+49            <intent-filter>
+49-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:37:13-41:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:38:17-69
+50-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:38:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:40:17-77
+52-->C:\Users\shubh\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:40:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+56            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+56-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+57            android:excludeFromRecents="true"
+57-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+58            android:exported="true"
+58-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+59            android:launchMode="singleTask"
+59-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+60            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+60-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+62
+63        <service
+63-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+68-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\shubh\.gradle\caches\transforms-3\f79a2e9e3847deeb4c21b2fb94903078\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore:21.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bbf53a4cfe24a7cc9acf1e5c759a302a\transformed\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:20:13-22:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+71-->[com.google.firebase:firebase-firestore:21.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bbf53a4cfe24a7cc9acf1e5c759a302a\transformed\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:21:17-111
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore:21.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bbf53a4cfe24a7cc9acf1e5c759a302a\transformed\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:22:17-82
+73        </service>
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e84aed08b93c297811792c2df529a154\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e84aed08b93c297811792c2df529a154\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e84aed08b93c297811792c2df529a154\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shubh\.gradle\caches\transforms-3\e84aed08b93c297811792c2df529a154\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+82            android:authorities="com.shubh.notesapp.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+83            android:exported="false"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+84            android:initOrder="100" />
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shubh\.gradle\caches\transforms-3\50a739c1b202312ec044cd51e16a46db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shubh\.gradle\caches\transforms-3\95144227dc8255eb894e2386845957c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shubh\.gradle\caches\transforms-3\95144227dc8255eb894e2386845957c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shubh\.gradle\caches\transforms-3\95144227dc8255eb894e2386845957c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+92            android:authorities="com.shubh.notesapp.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\8681ad377d43de7fbea679d317911d7b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bdaf60f618ea3b85faa4a1dc1f2502c3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bdaf60f618ea3b85faa4a1dc1f2502c3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\bdaf60f618ea3b85faa4a1dc1f2502c3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+100        </provider>
+101    </application>
+102
+103</manifest>
